@@ -1,12 +1,11 @@
 # acolead-client-lib
-# AcoLead SDK Integration
 
 This guide will help you integrate the AcoLead SDK into your website or web application.
 
 ---
 ##  Step 1: Add Script in `index.html`
 
-First, download or copy the `acolead.iife.js` file from this repository.
+First, download or copy the `dist\acolead.iife.js` file from this repository.
 
 Place it in the root directory of your project (or an appropriate subfolder like `js/`).
 
@@ -32,7 +31,6 @@ const result = await window.AcoLead.submitEnquiry(
 
 ## Note
 To get your `clientId`, follow these steps:
-1. Log in to [app.crm.coalitionify.com](https://app.crm.coalitionify.com)
+1. Log in to [app.crm.acolead.com/](https://app.crm.acolead.com/)
 2. Navigate to **Settings > SDK Integration**
 3. Copy your **Client ID** from there and replace `'yourActualClientId'` in the code above.
-
