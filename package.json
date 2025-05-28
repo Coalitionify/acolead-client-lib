@@ -1,0 +1,23 @@
+{
+  "name": "acolead-client-lib",
+  "version": "1.0.0",
+  "description": "JavaScript library for AcoLead form submission",
+  "main": "dist/acolead.iife.js",
+  "scripts": {
+    "build:stage": "vite build --mode stage",
+    "build:prod": "vite build --mode production"
+  },
+  "keywords": [
+    "acolead",
+    "crm",
+    "lead",
+    "form",
+    "javascript"
+  ],
+  "author": "AcoLead",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^1.6.8",
+    "vite": "^5.2.0"
+  }
+}
