@@ -20,12 +20,12 @@ In your enquiry function (e.g., when a form is submitted), use the following cod
 
 ```javascript
 const result = await window.AcoLead.submitEnquiry(
-    'yourActualClientId', // Replace this with your actual clientId
-    payload.name,
-    payload.phoneNumber,
-    payload.requirement,
-    payload.email,
-    payload.companyName
+    "<clientId>", // Replace this with your actual clientId
+    "<name>",
+    "<phoneNumber>",
+    "<requirement>",
+    "<email>",
+    "<companyName>"
 );
 ```
 
@@ -33,4 +33,4 @@ const result = await window.AcoLead.submitEnquiry(
 To get your `clientId`, follow these steps:
 1. Log in to [app.crm.acolead.com/](https://app.crm.acolead.com/)
 2. Navigate to **Settings > SDK Integration**
-3. Copy your **Client ID** from there and replace `'yourActualClientId'` in the code above.
+3. Copy your **Client ID** from there and replace `<clientId>` in the code above.
